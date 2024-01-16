@@ -18,7 +18,7 @@ const clientSecret = "YOUR_CLIENT_SECRET";
 
 ```
 
-### 3. Replace Playlist IDs
+### 3. Replace Playlist IDs and Adjust Values for the New Playlist
 
 In the playlistIds array at the beginning of your application file, replace the existing playlist IDs with the IDs of the playlists you want to shuffle together.
 
@@ -30,16 +30,16 @@ const playlistIds = [
 ];
 `
 
+Adjust the values in the createShuffledPlaylist function to set the number of songs and the name of the new playlist. For example:
+
+`createShuffledPlaylist(20, "Shuffled Playlist 1"); `
+
 ### 4. Install Dependencies
 Run the following command to install the necessary Node.js packages:
 
 `npm install`
 
 ### 5. Run the Application
-
-Adjust the values in the createShuffledPlaylist function to set the number of songs and the name of the new playlist. For example:
-
-`createShuffledPlaylist(20, "Shuffled Playlist 1"); `
 
 Start the application by running:
 
