@@ -36,6 +36,11 @@ Run the following command to install the necessary Node.js packages:
 `npm install`
 
 ### 5. Run the Application
+
+Adjust the values in the createShuffledPlaylist function to set the number of songs and the name of the new playlist. For example:
+
+`createShuffledPlaylist(20, "Shuffled Playlist 1"); `
+
 Start the application by running:
 
 `node SpotifyPlaylistRandomizer.js `
@@ -43,10 +48,6 @@ Start the application by running:
 ### 6. Log in to Spotify
 The application will provide a URL to log in to Spotify. Open the URL in a web browser, log in to your Spotify account, and authorize the application.
 
-###6. Create a Shuffled Playlist
-Adjust the values in the createShuffledPlaylist function to set the number of songs and the name of the new playlist. For example:
-
-`createShuffledPlaylist(20, "Shuffled Playlist 1"); `
 
 
-##Enjoy your shuffled playlists!
+## Enjoy your shuffled playlists!
